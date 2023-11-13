@@ -1,0 +1,55 @@
+html {
+    background-color:hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: hsl(217, 19%, 24%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+
+.numero-do-conselho {
+    color: hsl(150, 100%, 66%);
+}
+
+.conselho {
+    color: hsl(193, 38%, 86%);
+    margin: 5px 50px;
+}
+
+.linha-divisoria {
+    width: 90%;
+}
+
+.botao {
+    background-color: hsl(150, 100%, 66%);
+    padding: 3%;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    box-shadow: -4px 3px 32px -3px rgba(82,255,168,1);
+-webkit-box-shadow: -4px 3px 32px -3px rgba(82,255,168,1);
+-moz-box-shadow: -4px 3px 32px -3px rgba(82,255,168,1);
+}
