@@ -4,6 +4,12 @@
     }
 }
 
+@media (max-width:900px) {
+    .cartao {
+        width: 80%;
+    }
+}
+
 @media (max-width:600px) {
     html {
         font-size: 14px;
@@ -15,6 +21,7 @@
 
     .cartao {
         padding: 0 15px;
+        width: 80%;
     }
 
     .botao {
@@ -29,7 +36,8 @@
 @media (max-width:475px){
     .cartao {
         padding: 20px 0;
-        font-size: 80%;
+        
+        width: 95%;
     }
 
     .botao {
